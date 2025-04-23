@@ -1,0 +1,110 @@
+$font-size-15: 15px;
+$font-size-16: 16px;
+$font-size-18: 18px;
+$font-size-20: 20px;
+$font-size-22: 22px;
+$font-size-24: 24px;
+$font-size-26: 26px;
+
+.font-semibold {
+  font-family: GilroySemibold;
+}
+
+.font-bold {
+  font-family: GilroyBold;
+}
+
+.navbar-brand {
+  font-family: GilroyHeavy;
+}
+
+.nav-group {
+  position: absolute;
+  top:0;
+}
+
+.form-inline .form-control {
+  border-radius: 40px;
+  border: 1px solid #FFF;
+  background: rgba(255, 255, 255, 0.17);
+  color: #FFF;
+}
+
+.form .form-control {
+  border: 1px solid #FFF;
+  background: rgba(255, 255, 255, 0.17);
+  color: #FFF;
+}
+
+.nav-item .nav-link {
+  // font-family: GilroyBold;
+  color: #F7F8FC;
+  // text-decoration-line: underline; 
+}
+
+.card-header {
+  height: 4.125rem;
+  font-family: GilroySemiBold;
+}
+
+.card-header-title {
+  right: 0;
+  bottom: auto;
+  text-transform: uppercase;
+  font-size: 5.8125rem;
+  opacity: 0.1; 
+  line-height: normal;
+}
+
+.navbar-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.ul-list-group-item::before {
+  content: "●";
+  margin-right: 0.75rem;
+  color: white;
+}
+
+.avatar {
+  max-width: 9.375rem;
+  max-height: 9.375rem;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+
+.user-status {
+  position: absolute;
+  top: 85px; 
+  left: 15px;
+  width: 10px;
+  height: 10px;          
+}
+
+.user-edit {
+  position: absolute;
+  top: 120px; 
+  left: 120px;
+  width: 30px;
+  height: 30px; 
+}
+
+.page-link {
+  min-width: 1.5625rem;
+  height: 1.5625rem;
+}
+
+@media (max-width: 992px) {
+  .nav-group {
+    position: initial;
+  }
+
+  footer {
+    font-size: .75rem;
+    line-height: 141%;
+  }
+}

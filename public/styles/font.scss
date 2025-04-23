@@ -1,0 +1,21 @@
+@font-face {
+  font-family: GilroyRegular;
+  src: url("../assets/fonts/Gilroy-Regular.ttf");
+}
+
+@font-face {
+  font-family: GilroyBold;
+  src: url("../assets/fonts/Gilroy-Bold.ttf");
+}
+
+@font-face {
+  font-family: GilroySemiBold;
+  src: url("../assets/fonts/Gilroy-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: GilroyHeavy;
+  src: url("../assets/fonts/Gilroy-Heavy.ttf");
+}
+
+$font-family-base: GilroyRegular;

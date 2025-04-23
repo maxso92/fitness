@@ -1,0 +1,22 @@
+@use "sass:map";
+
+$brand-theme-colors: (
+  "primary": #3290FF,
+  "secondary": #A8A8A8,
+  "success": #6CFF8D,
+  "danger": #ED2C2C,
+  "warning": #FFA820,
+  "info": #1A75DF,
+  "light": #494949,
+  "dark": #353535,
+);
+
+$primary:   map.get($brand-theme-colors, "primary");
+$secondary: map.get($brand-theme-colors, "secondary");
+$success:   map.get($brand-theme-colors, "success");
+$info:      map.get($brand-theme-colors, "info");
+$warning:   map.get($brand-theme-colors, "warning");
+$danger:    map.get($brand-theme-colors, "danger");
+$light:    map.get($brand-theme-colors, "light");
+$dark:    map.get($brand-theme-colors, "dark");
+$input-placeholder-color: rgba(255, 255, 255, 0.5);
